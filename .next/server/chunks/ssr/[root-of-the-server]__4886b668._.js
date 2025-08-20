@@ -306,6 +306,7 @@ async function fetchInvoiceById(id) {
                 // Convert amount from cents to dollars
                 amount: invoice.amount / 100
             }));
+        console.log(invoice);
         return invoice[0];
     } catch (error) {
         console.error('Database Error:', error);
