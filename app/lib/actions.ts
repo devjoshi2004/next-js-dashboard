@@ -15,6 +15,7 @@ const FormSchema = z.object({
     date: z.string(),
 })
 
+// Create Invoice Api
 const CreateInvoice = FormSchema.omit({ id: true, date: true });
 
 export async function createInvoice(formData: FormData) {
@@ -42,6 +43,7 @@ export async function createInvoice(formData: FormData) {
   redirect("/dashboard/invoices");
 }
 
+// Update Invoice Api
 const UpdateInvoice = FormSchema.omit({ id: true, date: true });
 
 export async function updateInvoice(id: string, formData: FormData) {
@@ -61,4 +63,10 @@ export async function updateInvoice(id: string, formData: FormData) {
 
   revalidatePath("/dashboard/invoices");
   redirect("/dashboard/invoices");
+}
+
+// Delete Invoice Api
+export async function deleteInvoice(id: string) {
+  await sql`DELETE FROM invoices WHERE id = ${id}`;
+  revalidatePath("/dashboard/invoices");
 }
