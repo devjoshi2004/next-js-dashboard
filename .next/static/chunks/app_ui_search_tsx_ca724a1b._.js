@@ -27,8 +27,8 @@ function Search(param) {
     const { replace } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const handleSearch = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$use$2d$debounce$2f$dist$2f$index$2e$module$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDebouncedCallback"])({
         "Search.useDebouncedCallback[handleSearch]": (term)=>{
-            console.log("Searching... ".concat(term));
             const params = new URLSearchParams(searchParams);
+            params.set('page', '1');
             if (term) {
                 params.set('query', term);
             } else {

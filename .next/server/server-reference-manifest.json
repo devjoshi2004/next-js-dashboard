@@ -1,21 +1,5 @@
 {
   "node": {
-    "607ff3ebbbe9fe827cf423b511de03624297058057": {
-      "workers": {
-        "app/dashboard/invoices/page": {
-          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/ui/dashboard/sidenav.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
-        },
-        "app/login/page": {
-          "moduleId": "[project]/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/dashboard/invoices/page": "rsc",
-        "app/login/page": "action-browser"
-      }
-    },
     "00051bd8bc3e87a70c04d5190fe4aaf656aa14ff05": {
       "workers": {
         "app/dashboard/(overview)/page": {
@@ -25,49 +9,11 @@
         "app/dashboard/customers/page": {
           "moduleId": "[project]/.next-internal/server/app/dashboard/customers/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/ui/dashboard/sidenav.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
-        },
-        "app/dashboard/invoices/page": {
-          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/ui/dashboard/sidenav.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
         }
       },
       "layer": {
         "app/dashboard/(overview)/page": "rsc",
-        "app/dashboard/customers/page": "rsc",
-        "app/dashboard/invoices/page": "rsc"
-      }
-    },
-    "408be8d8c566722a65d8fcadf08851ebd5a56b7594": {
-      "workers": {
-        "app/dashboard/invoices/page": {
-          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/ui/dashboard/sidenav.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/dashboard/invoices/page": "rsc"
-      }
-    },
-    "602a67a65e2195b1830e68675fbf47e6639124a330": {
-      "workers": {
-        "app/dashboard/invoices/page": {
-          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/ui/dashboard/sidenav.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/dashboard/invoices/page": "rsc"
-      }
-    },
-    "703ed0661e37dd3c6d4e6768c99731ce8614d57ad6": {
-      "workers": {
-        "app/dashboard/invoices/page": {
-          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/ui/dashboard/sidenav.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/dashboard/invoices/page": "rsc"
+        "app/dashboard/customers/page": "rsc"
       }
     }
   },
