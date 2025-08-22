@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/query/route": "/query",
+  "/seed/route": "/seed",
+  "/favicon.ico/route": "/favicon.ico",
+  "/opengraph-image.png/route": "/opengraph-image.png",
+  "/page": "/",
+  "/login/page": "/login",
+  "/dashboard/invoices/create/page": "/dashboard/invoices/create",
+  "/dashboard/(overview)/page": "/dashboard",
+  "/dashboard/customers/page": "/dashboard/customers",
+  "/dashboard/invoices/[id]/edit/page": "/dashboard/invoices/[id]/edit",
+  "/dashboard/invoices/page": "/dashboard/invoices"
+}
