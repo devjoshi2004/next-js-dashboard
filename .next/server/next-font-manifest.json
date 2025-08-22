@@ -1,17 +1,1 @@
-{
-  "app": {
-    "[project]/app/dashboard/(overview)/page": [
-      "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2",
-      "static/media/a513310e873551ed-s.p.3d91dfde.woff2",
-      "static/media/8b6df6315033e3e2-s.p.328982ad.woff2"
-    ],
-    "[project]/app/dashboard/customers/page": [
-      "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2",
-      "static/media/a513310e873551ed-s.p.3d91dfde.woff2",
-      "static/media/8b6df6315033e3e2-s.p.328982ad.woff2"
-    ]
-  },
-  "appUsingSizeAdjust": true,
-  "pages": {},
-  "pagesUsingSizeAdjust": false
-}
+{"pages":{},"app":{"/home/its-pc-l-15/work/practice/next-js-dashboard/app/layout":["static/media/e4af272ccee01ff0-s.p.woff2","static/media/c556ae4be4c9cfa8-s.p.woff2","static/media/ebd7dc65a6ba3e83-s.p.woff2"],"/home/its-pc-l-15/work/practice/next-js-dashboard/app/login/page":["static/media/c556ae4be4c9cfa8-s.p.woff2","static/media/ebd7dc65a6ba3e83-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}
